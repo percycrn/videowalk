@@ -10,7 +10,6 @@ import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
@@ -150,7 +149,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void jump(View view) {
-        Intent intent = new Intent(this, WebViewActivity.class);
-        startActivity(intent);
+        finish();
     }
 }

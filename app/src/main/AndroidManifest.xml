@@ -23,9 +23,9 @@
 
     <application
         android:name=".VideoTalkApplication"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/iiitutor"
         android:label="@string/vt_app_name"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/iiitutor"
         android:allowBackup="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">

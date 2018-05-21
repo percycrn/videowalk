@@ -1,5 +1,5 @@
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-    <string name="vt_app_name">VideoTalk</string>
+    <string name="vt_app_name">iTutor</string>
     <string name="vt_menu_action_setting">Setting</string>
     <string name="vt_menu_action_clean">Clean</string>
     <string name="vt_title_activity_settings">Settings</string>
