@@ -38,7 +38,7 @@ public class WebViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_webview);
         mXWalkView = findViewById(R.id.xWalkWebView);
         XWalkPreferences.setValue(XWalkPreferences.REMOTE_DEBUGGING, true);
-        String url = "https://www.baidu.com/";
+        String url = "http://101.132.123.133:8081/iTutor/";
         mXWalkView.setUIClient(new XWalkUIClient(mXWalkView) {
             @Override
             public void openFileChooser(XWalkView view, ValueCallback<Uri> uploadFile, String acceptType, String capture) {
